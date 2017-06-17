@@ -2,12 +2,12 @@ import argparse
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--doors', type=str,
+    parser.add_argument('-d', '--doors', type=int,
                         help='How many doors', required=True, default=-1)
     return parser.parse_args()
 
 def doors():
-    door = int(get_args().doors)
+    door = get_args().doors
     door_str = 'closed ' * door
     door_array = (door_str.strip().split(" "))
     i = 1
