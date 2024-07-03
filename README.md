@@ -1,3 +1,5 @@
 # rosettacode
 
-Todo: Add a description
+## Description
+Saya ganteng
+udah gitu aja
